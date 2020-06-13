@@ -1,0 +1,4 @@
+docker images
+docker commit -m "Example" a426516eef96 jpoou/my-repo:lastest
+docker login
+docker push jpoou/my-repo:lastest
